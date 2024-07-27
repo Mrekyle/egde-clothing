@@ -1,21 +1,4 @@
-// THE DIFFERENCE BETWEEN CSS AND SCSS ALLOWS THE DEVELOPER TO NEST CODE INSIDE OF ITSELF. IE AN OUTER CONTAINER WITH AN INNER CONTAINER 
-// ALLOWS THE CODE TO BE NESTED INSIDE OF ITSELF. FOR EXAMPLE, CLASS CHILDREN.C
-// .outerContainer {
-//     background-color: orange;
-
-//     .categoryContainer {
-//         background-color: pink;
-//     }
-// }
-
-.categories-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .category-container {
+.category-container {
     min-width: 30%;
     height: 240px;
     flex: 1 1 auto;
